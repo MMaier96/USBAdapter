@@ -6,8 +6,8 @@
  ## Used Design Pattern
  ### Observer
  In this example the observer gets registered to an object which notifys the observer, when the watched event is fired
- [Observer Design Pattern](img/observer_design_pattern.png)
+ ![Observer Design Pattern](img/observer_design_pattern.png)
  
  ### Adapter
  In this example an interface gets created which multiple objects implements to get used universally.
- [Adapter Design Pattern](img/adapter_design_pattern.png)
+ ![Adapter Design Pattern](img/adapter_design_pattern.png)
