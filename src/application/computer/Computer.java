@@ -1,3 +1,5 @@
+package application.computer;
+import application.usb.IUSB2Listener;
 
 public class Computer implements IUSB2Listener {
 

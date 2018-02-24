@@ -1,3 +1,5 @@
+package application.usb;
+import application.computer.USB2Port;
 
 public class USB2DVDBurnerAdapter extends DVDBurner implements IUSB2Device{
 

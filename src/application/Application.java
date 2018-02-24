@@ -1,3 +1,8 @@
+package application;
+import application.computer.Computer;
+import application.computer.USB2Port;
+import application.usb.IUSB2Device;
+import application.usb.USB2DVDBurnerAdapter;
 
 public class Application {
 

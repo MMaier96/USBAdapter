@@ -1,3 +1,5 @@
+package application.usb;
+import application.computer.USB2Port;
 
 public interface IUSB2Device {
 

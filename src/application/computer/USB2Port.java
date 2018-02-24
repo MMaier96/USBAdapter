@@ -1,4 +1,8 @@
+package application.computer;
 import java.util.ArrayList;
+
+import application.usb.IDevice;
+import application.usb.IUSB2Listener;
 
 public class USB2Port {
 
@@ -29,5 +33,21 @@ public class USB2Port {
 		this.usb2Device = device;
 		notifyListeners();
 		
+	}
+
+	public ArrayList<IUSB2Listener> getListeners() {
+		return listeners;
+	}
+
+	public void setListeners(ArrayList<IUSB2Listener> listeners) {
+		this.listeners = listeners;
+	}
+
+	public IDevice getUsb2Device() {
+		return usb2Device;
+	}
+
+	public void setUsb2Device(IDevice usb2Device) {
+		this.usb2Device = usb2Device;
 	}
 }
