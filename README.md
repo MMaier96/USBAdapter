@@ -11,3 +11,6 @@
  ### Adapter
  In this example an interface gets created which multiple objects implements to get used universally.
  ![Adapter Design Pattern](img/adapter_design_pattern.png)
+
+ ## UML Class Diagram
+ ![Class Diagram](uml/UML_Class_Diagram.svg)
