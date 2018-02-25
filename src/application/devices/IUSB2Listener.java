@@ -1,4 +1,4 @@
-package application.usb;
+package application.devices;
 
 public interface IUSB2Listener {
 

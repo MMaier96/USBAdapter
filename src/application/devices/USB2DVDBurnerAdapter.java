@@ -1,7 +1,8 @@
-package application.usb;
+package application.devices;
+
 import application.computer.USB2Port;
 
-public class USB2DVDBurnerAdapter extends DVDBurner implements IUSB2Device{
+public class USB2DVDBurnerAdapter extends DVDBurner implements IUSB2Device {
 
 	@Override
 	public void plugInUB2(USB2Port usb2Port) {
